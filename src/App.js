@@ -10,6 +10,8 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import AgeCalculator from './pages/AgeCalculator';
 import QRCodePage from './pages/QRCode';
+import ImageExtensionConverter from './pages/ImageExtensionConverter';
+import ElectricUnitCalculator from './pages/ElectricUnitCalculator';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path="/age-calculator" element={<AgeCalculator />} />
         <Route path="/word-counter" element={<WordCounter />} />
         <Route path="/qr-code" element={<QRCodePage />} />
+        <Route path="/image-extension-converter" element={<ImageExtensionConverter />} />
+        <Route path="/electric-unit-calculator" element={<ElectricUnitCalculator />} />
       </Routes>
         <Footer />
     </Router>

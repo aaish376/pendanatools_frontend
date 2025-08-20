@@ -50,6 +50,24 @@ export const tools = [
     buttonText: 'Let\'s do it',
     path: '/qr-code',
   },
+  {
+    id: 'image-extension-converter',
+    title: 'Image Extension Converter',
+    description: 'Convert image extention to your required',
+    icon: '💰',
+    buttonText: 'Let\'s convert',
+    path: '/image-extension-converter',
+  },
+
+  {
+  id: 'electric-unit-calculator',
+  title: 'Electric Unit Calculator',
+  description: 'Calculate electricity units consumed by appliances',
+  icon: '⚡',
+  buttonText: "Let's calculate",
+  path: '/electric-unit-calculator',
+},
+
     {
     id: 'calorie-calculator',
     title: 'Calorie Calculator',
