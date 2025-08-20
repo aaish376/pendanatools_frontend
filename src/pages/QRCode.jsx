@@ -236,10 +236,8 @@ export default function QRCodePage() {
                 className="px-2 py-1 sm:px-3 sm:py-2 border rounded-lg text-xs sm:text-sm md:text-base"
               >
                 <option value="QR_CODE">QR Code</option>
-                <option value="CODE128">Code128</option>
-                <option value="EAN13">EAN-13</option>
-                <option value="UPC">UPC</option>
-                <option value="ITF">ITF</option>
+                <option value="CODE128">BarCode128</option>
+               
               </select>
             </div>
 
