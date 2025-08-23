@@ -12,6 +12,7 @@ import AgeCalculator from './pages/AgeCalculator';
 import QRCodePage from './pages/QRCode';
 import ImageExtensionConverter from './pages/ImageExtensionConverter';
 import ElectricUnitCalculator from './pages/ElectricUnitCalculator';
+import InvoiceMaker from './pages/InvoiceMaker';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/qr-code" element={<QRCodePage />} />
         <Route path="/image-extension-converter" element={<ImageExtensionConverter />} />
         <Route path="/electric-unit-calculator" element={<ElectricUnitCalculator />} />
+        <Route path="/invoice-maker" element={<InvoiceMaker />} />
       </Routes>
         <Footer />
     </Router>

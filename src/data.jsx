@@ -67,6 +67,14 @@ export const tools = [
   buttonText: "Let's calculate",
   path: '/electric-unit-calculator',
 },
+{
+  id: 'invoice-maker',
+  title: 'Invoice Maker',
+  description: 'Create, preview, and download professional invoices',
+  icon: '🧾',
+  buttonText: "Let's create",
+  path: '/invoice-maker',
+},
 
     {
     id: 'calorie-calculator',
